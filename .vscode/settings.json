@@ -1,0 +1,21 @@
+{
+  "python.pythonPath": "/Users/andresatzel/.local/share/virtualenvs/python_tutorial-t2pcl0FG/bin/python",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "autopep8",
+  "python.formatting.autopep8Path": "/Users/andresatzel/.local/share/virtualenvs/python_tutorial-t2pcl0FG/bin/autopep8",
+  "python.formatting.autopep8Args": ["--max-line-length", "70", "--aggressive"],
+  "python.linting.lintOnSave": true,
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintPath": "/Users/andresatzel/.local/share/virtualenvs/python_tutorial-t2pcl0FG/bin/pylint",
+  "python.linting.pylintArgs": [
+    "--load-plugins",
+    "pylint_django", // only if you are using django framework
+    "--enable=W0614",
+    "--enable= W0611"
+  ],
+  "[python]": {
+    "editor.tabSize": 4
+  }
+}
